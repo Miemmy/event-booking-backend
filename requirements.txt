@@ -1,0 +1,9 @@
+fastapi                 # The API framework
+uvicorn[standard]       # The server to run the API
+motor                   # Async MongoDB driver
+beanie                  # ODM (Makes MongoDB work like Python classes)
+pydantic-settings       # For managing .env files
+python-jose[cryptography] # For generating JWT tokens (Auth)
+passlib[bcrypt]         # For hashing passwords securely
+python-multipart        # For handling form data (login)
+email-validator         # Validates email format
